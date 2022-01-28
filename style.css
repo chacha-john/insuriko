@@ -2,12 +2,13 @@
     font-family: 'Montserrat';
 }
 .section-1{
-    background-image: url("Assets/#hero-cover.3.png");
+    background-image: url("Assets/hero-cover.3.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    opacity: 0.3;
+    opacity: 1.1;
+    color: white;
 }
 .navbar{
     display: flex;

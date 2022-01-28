@@ -6,9 +6,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
-    opacity: 1.1;
+    background-color: #252B42;
     color: white;
+    height: 900px;
 }
 .navbar{
     display: flex;

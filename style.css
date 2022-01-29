@@ -99,3 +99,49 @@ ul{
     margin: 20px;
     color: white;
 }
+.values-1{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    
+}
+.peace, .set, .satisfaction{
+    background-color: white;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0px 5px 20px rgb(206, 206, 206);
+    height: 200px;
+    padding: 30px;
+    font-size: large;
+}
+#satisfaction{
+    background-color: #23A6F0;
+    color: white;
+}
+.title-1{
+    font-size: 25px;
+    font-weight: 700;
+}
+.description-1{
+    color: gray;
+}
+#description-1{
+    color: whitesmoke;
+}
+.values-2{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+.peace-2, .set-2, .satisfaction-2{
+    background-color: white;
+    width: 300px;
+    margin: 20px;
+    height: 200px;
+    padding: 30px;
+    font-size: medium;
+    text-align: center;
+}
+.title-2{
+    font-weight: 600;
+}

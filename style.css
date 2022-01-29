@@ -1,5 +1,6 @@
 *{
     font-family: 'Montserrat';
+    box-sizing: border-box;
 }
 .section-1{
     background-image: url("Assets/hero-cover.3.png");
@@ -9,6 +10,9 @@
     background-color: #252B42;
     color: white;
     height: 900px;
+    padding: 30px;
+    font-weight: 600;
+    font-size: large;
 }
 .navbar{
     display: flex;
@@ -17,23 +21,29 @@
     margin: 10px;
 }
 #brand{
-    font-size: x-large;
-    justify-content: right;
+    font-size: xx-large;
+    display: flex;
+    justify-content:end;
     width: 25%;
+    font-weight: 600;
 }
 ul{
     list-style: none;
 }
 .tabs{
     width: 35%;
+    float: right;
 }
 #tabs{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .login{
-    width: 60%;
+    width: 40%;
     display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 #signup{
     background-color: #23A6F0;
@@ -45,6 +55,7 @@ ul{
     margin-top: 0;
     border-radius: 5px;
     height: 50px;
+    margin-left: 50px;
 }
 .intro{
     padding: 50px;
@@ -66,7 +77,7 @@ ul{
     padding: 50px;
     padding-top: 25px;
 }
-.new, .learn{
+.new{
     background-color: #23A6F0;
     border: #23A6F0 solid 2px;
     border-radius: 30px;
@@ -77,7 +88,14 @@ ul{
     margin: 20px;
     color: white;
 }
-.new:hover, .learn:hover{
+.learn{
     background-color: transparent;
     border: white 2px solid;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    color: white;
 }

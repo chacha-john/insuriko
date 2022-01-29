@@ -145,3 +145,32 @@ ul{
 .title-2{
     font-weight: 600;
 }
+.section-3{
+    text-align: center;
+}
+.title-3{
+    font-size: 40px;
+    opacity: .9;
+    font-weight: 700;
+    margin: 10px;
+}
+.description-3{
+    margin: 20px;
+}
+.reviews{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.feedback{
+    width: 250px;
+    margin: 25px;
+    padding: 15px;
+    border: solid whitesmoke 3px;
+}
+.feedback>img{
+    width: 150px;
+}
+.caption-1{
+    opacity: .5;
+}

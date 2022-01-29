@@ -145,8 +145,9 @@ ul{
 .title-2{
     font-weight: 600;
 }
-.section-3{
+.section-3, .section-4{
     text-align: center;
+    width: 100%;
 }
 .title-3{
     font-size: 40px;
@@ -161,9 +162,10 @@ ul{
     display: flex;
     justify-content: center;
     margin: 50px;
+    align-items: center;
 }
 .feedback{
-    width: 250px;
+    width: 300px;
     margin: 25px;
     padding: 15px;
     border: solid whitesmoke 3px;
@@ -177,10 +179,45 @@ ul{
 .patners{
     display: flex;
     justify-content: center;
-    width: 960px;
-    position: relative;
-    left: 490px;
+    margin-top: 250px;
 }
 .vector img{
     width: 40%;
+}
+.newsletter{
+    margin-top: 100px   ;
+    display: flex;
+    justify-content: center;
+    width: 1050px;
+    align-items: center;
+    border: solid 2px whitesmoke;
+    position: relative;
+    left: 400px;
+    background: linear-gradient(to right, #004688,#D54F89);
+    height: 100px;
+}
+.advert{
+    width: 50%;
+    color: white;
+    text-align: left;
+    padding: 50px;
+    font-size: 30px;
+}
+.subscribe{
+    width: 50%;
+}
+#email{
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border: 2px transparent solid;
+    margin-right: 0;
+}
+#subscribe{
+    height: 50px;
+    width: 150px;
+    margin-left: 0;
+    color: white;
+    background-color: #23A6F0;
+    border: transparent 2px solid;
 }

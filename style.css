@@ -336,3 +336,23 @@ button{
     display: flex;
     justify-content: end;
 }
+.footer{
+    display: flex;
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    justify-content: space-evenly;
+}
+.title-6{
+    font-size: large;
+    font-weight: 600;
+}
+.designer{
+    margin: 20px;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#reserved{
+    color: grey;
+}

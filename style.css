@@ -256,3 +256,27 @@ ul{
     position: relative;
     justify-content: right;
 }
+/* .offers ul{
+    list-style-image: url("Assets/correct.png");
+    list-style-position: inside;
+} */
+.offers ul li::before{
+    content: '';
+    display: inline-block;
+    background-image: url("Assets/correct.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.price-card{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.card{
+    border: solid 1px #23A6F0;
+    border-radius: 5px;
+    margin: 5px;
+    height: 500px;
+    text-align: center;
+    padding: 10px;
+}

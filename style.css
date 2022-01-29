@@ -174,3 +174,13 @@ ul{
 .caption-1{
     opacity: .5;
 }
+.patners{
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    position: relative;
+    left: 490px;
+}
+.vector img{
+    width: 40%;
+}

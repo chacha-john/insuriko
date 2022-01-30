@@ -189,17 +189,6 @@ button{
         padding: 15px;
         border: solid whitesmoke 3px;
     }
-    .feedback>img{
-        width: 50%;
-    }
-    .caption-1{
-        opacity: .5;
-    }
-    .patners{
-        display: flex;
-        justify-content: center;
-        margin-top: 250px;
-    }
     .vector img{
         width: 40%;
     }
@@ -475,7 +464,24 @@ button{
         left: 20%;
         padding: 20px;
     }
-    .feedback>img{
-        width: 50%;
+    .patners{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+    .vector{
+        margin: 5%;
+    }
+
+}
+.feedback>img{
+    width: 50%;
+}
+.caption-1{
+    opacity: .5;
+}
+.patners{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
 }

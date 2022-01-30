@@ -10,35 +10,36 @@ ul{
     background-color: #23A6F0;
     color: white;
 }
-.appointments{
-    display: flex;
-    width: 40%;
-    position: relative;
-    left: 30%;
-
-}
 p{
     padding: 0;
     margin: 0;
 }
-
+.section-1{
+    color: white;
+    font-size: large;
+}
+button{
+    background-color: #23A6F0;
+    width: 20%;
+    height: 50px;
+    border: #23A6F0 solid 3px;
+    font-size: large;
+    color: white;
+    margin-top: 0;
+    border-radius: 5px;
+}
 @media screen and (min-width: 1100px){
     .section-1{
+        font-weight: 600;
+        padding: 30px;
         background-image: url("Assets/hero-cover.3.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-color: #252B42;
-        color: white;
-        height: 900px;
-        padding: 30px;
-        font-weight: 600;
-        font-size: large;
     }
     .navbar{
         display: flex;
-        width: 100%;
-        color: white;
         margin: 10px;
     }
     #brand{
@@ -76,7 +77,7 @@ p{
         margin-left: 50px;
     }
     .intro{
-        padding: 50px;
+        padding: 10%;
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -378,5 +379,66 @@ p{
     }
     .mi-people{
         color: #23A6F0;
+    }
+}
+@media  screen and (min-width: 350px) and (max-width:700px){
+    .section-1{
+        font-weight: 600;
+        padding: 10px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #brand{
+        font-size: xx-large;
+        display: flex;
+        justify-content:center;
+        width: 50%;
+        font-weight: 600;
+        color: black;
+    }
+    .tabs{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        color: grey;
+    }
+    .intro{
+        padding: 10%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        background-image: url("Assets/hero-cover.3.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #252B42;
+    }
+    .values-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .peace, .set, .satisfaction{
+        width: 50%;
+        position: relative;
+        font-size: medium;
+        padding: 5px;
+    }
+    .peace,.set{
+        color: black;
+    }
+    .title-1{
+        font-size: large;
+        font-weight: 600;
+    }
+    .description-1{
+        color: grey;
+    }
+    #satisfaction, #satisfaction p{
+        color: white;
     }
 }

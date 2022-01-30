@@ -193,15 +193,12 @@ button{
         width: 40%;
     }
     .newsletter{
-        margin-top: 100px   ;
         display: flex;
         justify-content: center;
-        width: 1050px;
+        width: 75%;
         align-items: center;
-        border: solid 2px whitesmoke;
         position: relative;
-        left: 400px;
-        background: linear-gradient(to right, #004688,#D54F89);
+        left: 12.5%;
         height: 100px;
     }
     .advert{
@@ -472,6 +469,39 @@ button{
     .vector{
         margin: 5%;
     }
+    .newsletter{
+        margin-top: 10%;
+        width: 100%;
+        text-align: center;
+    }
+    .advert{
+        width: 100%;
+        color: white;
+        padding: 2%;
+        font-size: xx-large;
+        font-weight: 700;
+    }
+    #email{
+        height: 50px;
+        width: 50%;
+        border: none;
+        margin-right: 0;
+        /* flex-grow: 2; */
+        margin-bottom: 1%;
+    }
+    #subscribe{
+        height: 50px;
+        width: 30%;
+        margin-left: 0;
+        color: white;
+        background-color: #23A6F0;
+        border-radius: 0;
+        border: none;
+        margin-bottom: 1%;
+    }
+    #subscribe, #email{
+        border: solid white 1px;
+    }
 
 }
 .feedback>img{
@@ -485,3 +515,10 @@ button{
     justify-content: center;
     margin-top: 10%;
 }
+.newsletter{
+    margin-top: 10%;
+    border: solid 2px whitesmoke;
+    background: linear-gradient(to right, #004688,#D54F89);
+}
+
+

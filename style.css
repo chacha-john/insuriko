@@ -1,294 +1,14 @@
+
 *{
     font-family: 'Montserrat';
     box-sizing: border-box;
 }
-.section-1{
-    background-image: url("Assets/hero-cover.3.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #252B42;
-    color: white;
-    height: 900px;
-    padding: 30px;
-    font-weight: 600;
-    font-size: large;
-}
-.navbar{
-    display: flex;
-    width: 100%;
-    color: white;
-    margin: 10px;
-}
-#brand{
-    font-size: xx-large;
-    display: flex;
-    justify-content:end;
-    width: 25%;
-    font-weight: 600;
-}
 ul{
     list-style: none;
-}
-.tabs{
-    width: 35%;
-    float: right;
-}
-#tabs{
-    display: flex;
-    justify-content: space-around;
-}
-.login{
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-#signup{
-    background-color: #23A6F0;
-    width: 200px;
-    height: 40px;
-    border: #23A6F0 solid 3px;
-    font-size: 20px;
-    color: white;
-    margin-top: 0;
-    border-radius: 5px;
-    height: 50px;
-    margin-left: 50px;
-}
-.intro{
-    padding: 50px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0;
-    /* color: white; */
-}
-#tag-line{
-    font-size: 70px;
-    margin-bottom: 0;
-    padding: 50px;
-    padding-bottom: 25px;
-}
-#tag-description{
-    font-size: 20px;
-    text-align: center;
-    padding: 50px;
-    padding-top: 25px;
-}
-.new{
-    background-color: #23A6F0;
-    border: #23A6F0 solid 2px;
-    border-radius: 30px;
-    font-size: 20px;
-    padding: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 20px;
-    color: white;
-}
-.learn{
-    background-color: transparent;
-    border: white 2px solid;
-    border-radius: 30px;
-    font-size: 20px;
-    padding: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 20px;
-    color: white;
-}
-.values-1{
-    display: flex;
-    justify-content: center;
-    margin-top: -100px;
-    
-}
-.peace, .set, .satisfaction{
-    background-color: white;
-    width: 300px;
-    margin: 20px;
-    box-shadow: 0px 5px 20px rgb(206, 206, 206);
-    height: 200px;
-    padding: 20px;
-    font-size: large;
 }
 #satisfaction{
     background-color: #23A6F0;
     color: white;
-}
-.title-1{
-    font-size: 25px;
-    font-weight: 700;
-}
-p{
-    padding: 0;
-    margin: 0;
-}
-.values-1 div p{
-    margin-top: 5px;
-}
-.description-1{
-    color: gray;
-}
-#description-1{
-    color: whitesmoke;
-}
-.values-2{
-    display: flex;
-    justify-content: center;
-    margin: 100px;
-    width: 75%;
-    position: relative;
-    left: 6.25%;
-}
-.peace-2, .set-2, .satisfaction-2{
-    background-color: white;
-    margin: 20px;
-    height: 200px;
-    padding: 30px;
-    font-size: medium;
-    text-align: center;
-}
-.title-2{
-    font-weight: 600;
-}
-.section-3, .section-4{
-    text-align: center;
-    width: 100%;
-}
-.title-3{
-    font-size: 40px;
-    opacity: .9;
-    font-weight: 700;
-    margin: 10px;
-}
-.description-3, .description-5, .description-2{
-    margin: 20px;
-    color: grey;
-}
-.reviews{
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    align-items: center;
-}
-.feedback{
-    width: 300px;
-    margin: 25px;
-    padding: 15px;
-    border: solid whitesmoke 3px;
-}
-.feedback>img{
-    width: 150px;
-}
-.caption-1{
-    opacity: .5;
-}
-.patners{
-    display: flex;
-    justify-content: center;
-    margin-top: 250px;
-}
-.vector img{
-    width: 40%;
-}
-.newsletter{
-    margin-top: 100px   ;
-    display: flex;
-    justify-content: center;
-    width: 1050px;
-    align-items: center;
-    border: solid 2px whitesmoke;
-    position: relative;
-    left: 400px;
-    background: linear-gradient(to right, #004688,#D54F89);
-    height: 100px;
-}
-.advert{
-    width: 50%;
-    color: white;
-    text-align: left;
-    padding: 50px;
-    font-size: 30px;
-}
-.subscribe{
-    width: 50%;
-}
-#email{
-    height: 50px;
-    width: 250px;
-    /* border-radius: 5px; */
-    border: none;
-    margin-right: 0;
-    flex-grow: 2;
-}
-#subscribe{
-    height: 50px;
-    width: 150px;
-    margin-left: 0;
-    color: white;
-    background-color: #23A6F0;
-    border-radius: 0;
-}
-.pricing{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 100px;
-}
-.section-6{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.branches{
-    display: flex;
-    background-color: #252B42;
-    padding: 150px;
-    width: 75%;
-    position: relative;
-    left: 12.5%;
-}
-.accumulation{
-    width: 50%;
-    color: white;
-}
-#title-4{
-    font-size: 40px;
-    opacity: .9;
-    font-weight: 700;
-    margin: 10px;
-}
-.image-1 img{
-    width: 100%;
-    position: relative;
-    justify-content: right;
-}
-/* .offers ul{
-    list-style-image: url("Assets/correct.png");
-    list-style-position: inside;
-} */
-.offers ul li::before{
-    content: '';
-    display: inline-block;
-    background-image: url("Assets/correct.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.price-card{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-.card{
-    border: solid 1px #23A6F0;
-    border-radius: 5px;
-    margin: 5px;
-    height: 500px;
-    text-align: center;
-    padding: 10px;
 }
 .appointments{
     display: flex;
@@ -297,88 +17,366 @@ p{
     left: 30%;
 
 }
-.form-2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 50%;
+p{
+    padding: 0;
+    margin: 0;
+}
 
-}
-.image-2{
-    width: 50%;
-
-}
-.image-2 img{
-    width: 50%;
-    display: flex;
-}
-.section-7{
-    margin: 100px;
-    width: 50%;
-    position: relative;
-    left: 20%;
-    display: flex;
-    align-items: center;
-}
-.contact-us{
-    width: 50%;
-    text-align: left;
-
-}
-button{
-    background-color: #23A6F0;
-    width: 200px;
-    height: 40px;
-    border: #23A6F0 solid 3px;
-    font-size: 20px;
-    color: white;
-    margin-top: 0;
-    border-radius: 5px;
-    height: 50px;
-    margin-left: 50px;
-}
-.title-5{
-    font-size: 25px;
-    font-weight: 700;
-}
-.contact-us-2{
-    width: 50%;
-    display: flex;
-    justify-content: end;
-}
-.footer{
-    display: flex;
-    width: 75%;
-    position: relative;
-    left: 12.5%;
-    justify-content: space-evenly;
-}
-.title-6{
-    font-size: large;
-    font-weight: 600;
-}
-.designer{
-    margin: 20px;
-    width: 75%;
-    display: flex;
-    justify-content: space-evenly;
-}
-#reserved{
-    color: grey;
-}
-#form-2{
-    display: flex;
-    padding: 0px;
-    border: 1px solid white;
-    margin: 5px;
-    border-radius: 5px;
-}
-.material-icons{
-    color: gold;
-}
-#blue-bg{
-    color: white;
-}
-.mi-people{
-    color: #23A6F0;
+@media screen and (min-width: 1100px){
+    .section-1{
+        background-image: url("Assets/hero-cover.3.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #252B42;
+        color: white;
+        height: 900px;
+        padding: 30px;
+        font-weight: 600;
+        font-size: large;
+    }
+    .navbar{
+        display: flex;
+        width: 100%;
+        color: white;
+        margin: 10px;
+    }
+    #brand{
+        font-size: xx-large;
+        display: flex;
+        justify-content:end;
+        width: 25%;
+        font-weight: 600;
+    }
+    .tabs{
+        width: 35%;
+        float: right;
+    }
+    #tabs{
+        display: flex;
+        justify-content: space-around;
+    }
+    .login{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    #signup{
+        background-color: #23A6F0;
+        width: 200px;
+        height: 40px;
+        border: #23A6F0 solid 3px;
+        font-size: 20px;
+        color: white;
+        margin-top: 0;
+        border-radius: 5px;
+        height: 50px;
+        margin-left: 50px;
+    }
+    .intro{
+        padding: 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    #tag-line{
+        font-size: 70px;
+        margin-bottom: 0;
+        padding: 50px;
+        padding-bottom: 25px;
+    }
+    #tag-description{
+        font-size: 20px;
+        text-align: center;
+        padding: 50px;
+        padding-top: 25px;
+    }
+    .new{
+        background-color: #23A6F0;
+        border: #23A6F0 solid 2px;
+        border-radius: 30px;
+        font-size: 20px;
+        padding: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 20px;
+        color: white;
+    }
+    .learn{
+        background-color: transparent;
+        border: white 2px solid;
+        border-radius: 30px;
+        font-size: 20px;
+        padding: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 20px;
+        color: white;
+    }
+    .values-1{
+        display: flex;
+        justify-content: center;
+        margin-top: -100px;
+        
+    }
+    .peace, .set, .satisfaction{
+        background-color: white;
+        max-width: 300px;
+        margin: 20px;
+        box-shadow: 0px 5px 20px rgb(206, 206, 206);
+        height: 200px;
+        padding: 20px;
+        font-size: large;
+    }
+    .title-1{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .values-1 div p{
+        margin-top: 5px;
+    }
+    .description-1{
+        color: gray;
+    }
+    #description-1{
+        color: whitesmoke;
+    }
+    .values-2{
+        display: flex;
+        justify-content: center;
+        margin: 100px;
+        max-width: 75%;
+        position: relative;
+        left: 6.25%;
+    }
+    .peace-2, .set-2, .satisfaction-2{
+        background-color: white;
+        margin: 20px;
+        height: 200px;
+        padding: 30px;
+        font-size: medium;
+        text-align: center;
+    }
+    .title-2{
+        font-weight: 600;
+    }
+    .section-3, .section-4{
+        text-align: center;
+        max-width: 100%;
+    }
+    .title-3{
+        font-size: 40px;
+        opacity: .9;
+        font-weight: 700;
+        margin: 10px;
+    }
+    .description-3, .description-5, .description-2{
+        margin: 20px;
+        color: grey;
+    }
+    .reviews{
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+        align-items: center;
+    }
+    .feedback{
+        width: 300px;
+        margin: 25px;
+        padding: 15px;
+        border: solid whitesmoke 3px;
+    }
+    .feedback>img{
+        width: 150px;
+    }
+    .caption-1{
+        opacity: .5;
+    }
+    .patners{
+        display: flex;
+        justify-content: center;
+        margin-top: 250px;
+    }
+    .vector img{
+        width: 40%;
+    }
+    .newsletter{
+        margin-top: 100px   ;
+        display: flex;
+        justify-content: center;
+        width: 1050px;
+        align-items: center;
+        border: solid 2px whitesmoke;
+        position: relative;
+        left: 400px;
+        background: linear-gradient(to right, #004688,#D54F89);
+        height: 100px;
+    }
+    .advert{
+        width: 50%;
+        color: white;
+        text-align: left;
+        padding: 50px;
+        font-size: 30px;
+    }
+    .subscribe{
+        width: 50%;
+    }
+    #email{
+        height: 50px;
+        width: 250px;
+        border: none;
+        margin-right: 0;
+        flex-grow: 2;
+    }
+    #subscribe{
+        height: 50px;
+        width: 150px;
+        margin-left: 0;
+        color: white;
+        background-color: #23A6F0;
+        border-radius: 0;
+    }
+    .pricing{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 100px;
+    }
+    .section-6{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .branches{
+        display: flex;
+        background-color: #252B42;
+        padding: 150px;
+        width: 75%;
+        position: relative;
+        left: 12.5%;
+    }
+    .accumulation{
+        width: 50%;
+        color: white;
+    }
+    #title-4{
+        font-size: 40px;
+        opacity: .9;
+        font-weight: 700;
+        margin: 10px;
+    }
+    .image-1 img{
+        width: 100%;
+        position: relative;
+        justify-content: right;
+    }
+    .offers ul li::before{
+        content: '';
+        display: inline-block;
+        background-image: url("Assets/correct.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .price-card{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .card{
+        border: solid 1px #23A6F0;
+        border-radius: 5px;
+        margin: 5px;
+        height: 500px;
+        text-align: center;
+        padding: 10px;
+    }
+    .form-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50%;
+    
+    }
+    .image-2{
+        width: 50%;
+    
+    }
+    .image-2 img{
+        width: 50%;
+        display: flex;
+    }
+    .section-7{
+        margin: 100px;
+        width: 50%;
+        position: relative;
+        left: 20%;
+        display: flex;
+        align-items: center;
+    }
+    .contact-us{
+        width: 50%;
+        text-align: left;
+    
+    }
+    button{
+        background-color: #23A6F0;
+        width: 200px;
+        height: 40px;
+        border: #23A6F0 solid 3px;
+        font-size: 20px;
+        color: white;
+        margin-top: 0;
+        border-radius: 5px;
+        height: 50px;
+        margin-left: 50px;
+    }
+    .title-5{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .contact-us-2{
+        width: 50%;
+        display: flex;
+        justify-content: end;
+    }
+    .footer{
+        display: flex;
+        width: 75%;
+        position: relative;
+        left: 12.5%;
+        justify-content: space-evenly;
+    }
+    .title-6{
+        font-size: large;
+        font-weight: 600;
+    }
+    .designer{
+        margin: 20px;
+        width: 75%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #reserved{
+        color: grey;
+    }
+    #form-2{
+        display: flex;
+        padding: 0px;
+        border: 1px solid white;
+        margin: 5px;
+        border-radius: 5px;
+    }
+    .material-icons{
+        color: gold;
+    }
+    #blue-bg{
+        color: white;
+    }
+    .mi-people{
+        color: #23A6F0;
+    }
 }

@@ -210,9 +210,10 @@ ul{
 #email{
     height: 50px;
     width: 250px;
-    border-radius: 5px;
-    border: 2px transparent solid;
+    /* border-radius: 5px; */
+    border: none;
     margin-right: 0;
+    flex-grow: 2;
 }
 #subscribe{
     height: 50px;
@@ -220,7 +221,7 @@ ul{
     margin-left: 0;
     color: white;
     background-color: #23A6F0;
-    border: transparent 2px solid;
+    border-radius: 0;
 }
 .pricing{
     display: flex;
@@ -355,4 +356,14 @@ button{
 }
 #reserved{
     color: grey;
+}
+#form-2{
+    display: flex;
+    padding: 0px;
+    border: 1px solid white;
+    margin: 5px;
+    border-radius: 5px;
+}
+.material-icons{
+    color: gold;
 }

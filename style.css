@@ -111,7 +111,7 @@ ul{
     margin: 20px;
     box-shadow: 0px 5px 20px rgb(206, 206, 206);
     height: 200px;
-    padding: 30px;
+    padding: 20px;
     font-size: large;
 }
 #satisfaction{
@@ -121,6 +121,13 @@ ul{
 .title-1{
     font-size: 25px;
     font-weight: 700;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.values-1 div p{
+    margin-top: 5px;
 }
 .description-1{
     color: gray;
@@ -132,10 +139,12 @@ ul{
     display: flex;
     justify-content: center;
     margin: 100px;
+    width: 75%;
+    position: relative;
+    left: 6.25%;
 }
 .peace-2, .set-2, .satisfaction-2{
     background-color: white;
-    width: 300px;
     margin: 20px;
     height: 200px;
     padding: 30px;
@@ -155,7 +164,7 @@ ul{
     font-weight: 700;
     margin: 10px;
 }
-.description-3, .description-5{
+.description-3, .description-5, .description-2{
     margin: 20px;
     color: grey;
 }
@@ -366,4 +375,10 @@ button{
 }
 .material-icons{
     color: gold;
+}
+#blue-bg{
+    color: white;
+}
+.mi-people{
+    color: #23A6F0;
 }

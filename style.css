@@ -156,7 +156,6 @@ button{
     .peace-2, .set-2, .satisfaction-2{
         background-color: white;
         margin: 20px;
-        height: 200px;
         padding: 30px;
         font-size: medium;
         text-align: center;
@@ -185,13 +184,13 @@ button{
         align-items: center;
     }
     .feedback{
-        width: 300px;
+        width: 22.5%;
         margin: 25px;
         padding: 15px;
         border: solid whitesmoke 3px;
     }
     .feedback>img{
-        width: 150px;
+        width: 50%;
     }
     .caption-1{
         opacity: .5;
@@ -426,12 +425,12 @@ button{
         width: 50%;
         position: relative;
         font-size: medium;
-        padding: 5px;
+        padding: 30px;
     }
     .peace,.set{
         color: black;
     }
-    .title-1{
+    .title-1,.title-2{
         font-size: large;
         font-weight: 600;
     }
@@ -440,5 +439,43 @@ button{
     }
     #satisfaction, #satisfaction p{
         color: white;
+    }
+    .values-2{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        text-align: center;
+    }
+    img{
+        max-width: 100%;
+    }
+    .section-3{
+        margin-top: 10%;
+    }
+    .title-3{
+        font-size: xx-large;
+        opacity: .9;
+        font-weight: 700;
+        text-align: center;
+    }
+    .description-3{
+        text-align: center;
+        align-items: center;
+        max-width: 50%;
+        position: relative;
+        left: 25%;
+        font-size: small;
+    }
+    .feedback{
+        border: solid whitesmoke 3px;
+        text-align: center;
+        width: 50%;
+        margin: 20px;
+        position: relative;
+        left: 20%;
+        padding: 20px;
+    }
+    .feedback>img{
+        width: 50%;
     }
 }

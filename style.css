@@ -246,22 +246,28 @@ button{
     .offers ul li::before{
         content: '';
         display: inline-block;
-        background-image: url("Assets/correct.png");
+        background-image: url("Assets/check-circle.svg");
         background-size: contain;
         background-repeat: no-repeat;
     }
     .price-card{
         display: flex;
-        text-align: center;
         justify-content: center;
+        margin-bottom: 5%;
     }
     .card{
         border: solid 1px #23A6F0;
         border-radius: 5px;
         margin: 5px;
-        height: 500px;
-        text-align: center;
+        height: 400px;
+        /* text-align: center; */
         padding: 10px;
+    }
+    .card-1{
+        height: 500px;
+        margin-top: -95px;
+        background-color: #252B42;
+        color: white;
     }
     .form-2{
         display: flex;
@@ -285,11 +291,6 @@ button{
         left: 20%;
         display: flex;
         align-items: center;
-    }
-    .contact-us{
-        width: 50%;
-        text-align: left;
-    
     }
     button{
         background-color: #23A6F0;
@@ -385,6 +386,21 @@ button{
         background-size: cover;
         background-color: #252B42;
     }
+    #signup{
+        display: none;
+    }
+    .login{
+        width: 100%;
+        text-align: center;
+    }
+    #login{
+        color: grey;
+        margin-bottom: 10%;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
     .values-1{
         display: flex;
         flex-direction: column;
@@ -428,6 +444,11 @@ button{
         text-align: center;
     }
     .description-3{
+        margin-top: 5%;
+        opacity: .9;
+    }
+
+    .description-5{
         text-align: center;
         align-items: center;
         max-width: 50%;
@@ -491,6 +512,52 @@ button{
         height: 20%;
         border-radius: 10px;
     }
+    .title-5{
+        width: 75%;
+        position: relative;
+        left: 12.5%;
+        margin-bottom: 5%;
+        height: 20%;
+        font-weight: 700;
+        font-size: xx-large;
+    }
+    .image-2 img{
+        background-size: contain;
+        width: 50%;
+    }
+    .appointments{
+        width: 100%;
+    }
+    #contact-us{
+        width: 40%;
+        left: 30%;
+        position: relative;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .footer{
+        width: 75%;
+        position: relative;
+        left: 12.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 2.5%;
+    }
+    .title-6{
+        font-weight: 700;
+    }
+    .footer div{
+        margin: 2.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #reserved{
+        width: 60%;
+        position: relative;
+        left: 25%;
+    }
 
 }
 .feedback>img{
@@ -529,14 +596,38 @@ button{
     color: white;
     font-size: medium;
 }
-img, .image-2{
-    width: 100%;
-}
 #title-4{
-    font-size: medium;
+    font-size: large;
     opacity: .9;
     font-weight: 600;
     margin: 1%;
 }
+.contact-us{
+    text-align: center;
+}
+.material-icons{
+    color: gold;
+}
+#blue-bg{
+    color: white;
+}
+.mi-people{
+    color: #23A6F0;
+}
+li {
+    list-style: none;
+}
+.offers ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li::before {
+    content: '';
+    display: inline-block;
+    height: 20%;
+    width: 20%;
+    background-image: url("Assets/check-circle.svg");
+  }
 
 

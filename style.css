@@ -258,9 +258,6 @@ button{
         padding: 17.5%;
         font-weight: 600;
     }
-    sup, sub{
-        font-size: small;
-    }
     .submit-1{
         position: relative;
         top: 100px;
@@ -648,8 +645,48 @@ button{
         height: 40%;
         margin-top: -12.5%;
     }
-
+    .branches{
+        background-color: #252B42;
+        padding: 5%;
+        width: 75%;
+        position: relative;
+        left: 12.5%;
+        color: white;
+        font-size: medium;
+    }
+    .values-1{
+        margin-top: -50%;
+        width: 75%;
+    }
+    .card{
+        border: solid 1px #23A6F0;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 10px;
+    }
+    .card-1{
+        background-color: #252B42;
+        color: white;
+    }
+    .plan{
+        font-size: x-large;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+    }
+    .explanation{
+        text-align: center;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+    }
+    .price-card{
+        margin-bottom: 5%;
+    }
 }
+
 .feedback>img{
     width: 50%;
 }
@@ -703,4 +740,20 @@ button{
 }
 .mi-people{
     color: #23A6F0;
+}
+sup, sub{
+    font-size: small;
+}
+.plan{
+    padding-top: 12.5%;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.explanation{
+    text-align: center;
+    position: relative;
+    padding: 17.5%;
+    font-weight: 600;
 }

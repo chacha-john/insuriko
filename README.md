@@ -13,6 +13,7 @@ This is a landing page for an insurance website for an independent project built
 
 # Description
 <p>A website landing page for an insurance company. Furthermore, the site allows one to subscribe to a mailing list where they can get updates in their email address.</p>
+<p>The site is responsive to mobile devices between 350px and 700px of width and desktop computers beyond 1100px of screen width.</p>
 
 # Requirements
 

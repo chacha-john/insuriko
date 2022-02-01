@@ -66,7 +66,7 @@ button{
     }
     #signup{
         background-color: #23A6F0;
-        width: 200px;
+        width: 40%;
         height: 40px;
         border: #23A6F0 solid 3px;
         font-size: 20px;
@@ -211,13 +211,6 @@ button{
     .subscribe{
         width: 50%;
     }
-    #email{
-        height: 50px;
-        width: 250px;
-        border: none;
-        margin-right: 0;
-        flex-grow: 2;
-    }
     #subscribe{
         height: 50px;
         width: 150px;
@@ -228,6 +221,7 @@ button{
     }
     .branches{
         display: flex;
+        height: 600px;
     }
     .accumulation{
         width: 50%;
@@ -242,6 +236,39 @@ button{
         width: 100%;
         position: relative;
         justify-content: right;
+    }
+    .offers ul li{
+        margin: 7.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .plan{
+        padding-top: 12.5%;
+        font-size: x-large;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .explanation{
+        text-align: center;
+        position: relative;
+        padding: 17.5%;
+        font-weight: 600;
+    }
+    sup, sub{
+        font-size: small;
+    }
+    .submit-1{
+        position: relative;
+        top: 100px;
+    }
+    .price{
+        color: #23A6F0;
+        text-align: center;
+        font-size: 150%;
+        padding-bottom: 10%;
+        font-weight: 700;
     }
     .offers ul li::before{
         content: '';
@@ -259,12 +286,12 @@ button{
         border: solid 1px #23A6F0;
         border-radius: 5px;
         margin: 5px;
-        height: 400px;
+        height: 650px;
         /* text-align: center; */
         padding: 10px;
     }
     .card-1{
-        height: 500px;
+        height: 750px;
         margin-top: -95px;
         background-color: #252B42;
         color: white;
@@ -272,16 +299,47 @@ button{
     .form-2{
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        width: 50%;
-    
+        justify-content: space-around;
+        position: relative;
+        left: -12.5%;
+        width: 40%;
+        font-size: x-large;
+        background-color: white;
+
+    }
+    #name-1,#email-1,#departement-1,#datetime-1{
+        width: 75%;
+        height: 10%;
+        margin: 0;
+        background-color: whitesmoke;
+        border: 1px grey solid;
+        border-radius: 5px;
+        left: 5%;
+        position: relative;
+    }
+    #appointment{
+        width: 75%;
+        position: relative;
+        left: 5%;
+        margin-left: 0;
+    }
+    .label{
+        left: 5%;
+        position: relative;
+        font-weight: 700;
+    }
+    .form br{
+        margin: 0;
+        padding: 0;
     }
     .image-2{
         width: 50%;
+        left: 25%;
+        position: relative;
     
     }
     .image-2 img{
-        width: 50%;
+        width: 25%;
         display: flex;
     }
     .section-7{
@@ -305,8 +363,22 @@ button{
         margin-left: 50px;
     }
     .title-5{
-        font-size: 25px;
+        font-size: 125%;
         font-weight: 700;
+        text-align: center;
+        width: 75%;
+        padding-top: 5%;
+    }
+    .title-5-1{
+        font-size: 112.5%;
+        font-weight: 700;
+        width: 100%;
+        padding-top: 5%;
+    }
+    .description-5-1{
+        margin-top: 5%;
+        text-align: left;
+        color: grey;
     }
     .contact-us-2{
         width: 50%;
@@ -349,7 +421,19 @@ button{
     .mi-people{
         color: #23A6F0;
     }
-}
+    .appointments{
+        width: 100%;
+        display: flex;
+        height: 40%;
+        margin-top: -12.5%;
+    }
+    #email{
+        height: 50px;
+        width: 250px;
+        border: none;
+        margin-right: 0;
+        flex-grow: 2;
+    }
 @media  screen and (min-width: 350px) and (max-width:700px){
     .section-1{
         font-weight: 600;
@@ -493,6 +577,7 @@ button{
         flex-grow: 2;
         margin-bottom: 1%;
     }
+
     #subscribe{
         height: 50px;
         width: 30%;
@@ -521,13 +606,16 @@ button{
         font-weight: 700;
         font-size: xx-large;
     }
-    .image-2 img{
+    .image-2{
         background-size: contain;
-        width: 50%;
-    }
-    .appointments{
         width: 100%;
     }
+    /* .appointments{
+        width: 100%;
+        display: flex;
+        position: relative;
+
+    } */
     #contact-us{
         width: 40%;
         left: 30%;
@@ -614,13 +702,8 @@ button{
 .mi-people{
     color: #23A6F0;
 }
-li {
+/* li {
     list-style: none;
-}
-.offers ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 li::before {
     content: '';
@@ -628,6 +711,6 @@ li::before {
     height: 20%;
     width: 20%;
     background-image: url("Assets/check-circle.svg");
-  }
+  } */
 
 

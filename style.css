@@ -225,6 +225,13 @@ button{
     .branches{
         display: flex;
         height: 600px;
+        background-color: #252B42;
+        padding: 5%;
+        width: 75%;
+        position: relative;
+        left: 12.5%;
+        color: white;
+        font-size: medium;
     }
     .accumulation{
         width: 50%;
@@ -433,6 +440,9 @@ button{
         margin-right: 0;
         flex-grow: 2;
     }
+    #mobileappointment{
+        display: none;
+    }
 }
 @media  screen and (min-width: 350px) and (max-width:700px){
     .section-1{
@@ -599,8 +609,9 @@ button{
     }
     .title-5{
         width: 100%;
+        text-align: center;
         position: relative;
-        margin: 5% 0 ;
+        margin: 5% 0;
         height: 5%;
         font-weight: 700;
         font-size: xx-large;
@@ -610,10 +621,6 @@ button{
         font-weight: 700;
         width: 100%;
         padding-top: 5%;
-    }
-    .image-2{
-        background-size: contain;
-        width: 100%;
     }
     #contact-us{
         width: 40%;
@@ -647,15 +654,13 @@ button{
     }
     .appointments{
         width: 100%;
-        display: flex;
         height: 40%;
     }
     .branches{
         background-color: #252B42;
-        padding: 5%;
-        width: 75%;
+        padding: 10%;
+        width: 100%;
         position: relative;
-        left: 12.5%;
         color: white;
         font-size: medium;
     }
@@ -733,7 +738,7 @@ button{
         flex-direction: column;
         justify-content: space-around;
         position: relative;
-        left: -12.5%;
+        /* left: -12.5%; */
         width: 100%;
         font-size: x-large;
         background-color: white;
@@ -746,7 +751,7 @@ button{
         background-color: whitesmoke;
         border: 1px grey solid;
         border-radius: 5px;
-        left: 5%;
+        left: 12.5%;
         position: relative;
     }
     #deskappointment{
@@ -755,13 +760,13 @@ button{
     #appointment{
         margin: 5% 0;
         width: 75%;
-        height: 10%;
+        height: 60px;
         position: relative;
-        left: 5%;
+        left: 12.5%;
         margin-left: 0;
     }
     .label{
-        left: 5%;
+        left: 12.5%;
         position: relative;
         font-weight: 500;
         font-size: large;
@@ -771,15 +776,21 @@ button{
         padding: 0;
     }
     .image-2{
-        width: 50%;
-        left: 25%;
+        width: 100%;
         position: relative;
+        height: 500px;
+        background-image: url("Assets/contact-cover.2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
     
     }
-    .image-2 img{
-        width: 25%;
+    /* .image-2 img{
+        width: 100%;
         display: flex;
-    }
+        height: 50%;
+        background-position: center;
+    } */
 }
 
 .feedback>img{
@@ -808,15 +819,6 @@ button{
     display: flex;
     flex-direction: column;
     width: 100%;
-}
-.branches{
-    background-color: #252B42;
-    padding: 5%;
-    width: 75%;
-    position: relative;
-    left: 12.5%;
-    color: white;
-    font-size: medium;
 }
 #title-4{
     font-size: large;
